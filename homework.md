@@ -90,3 +90,8 @@ SET show_time = '20:55' WHERE title = 'Guardians of the Galaxy 2';
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+
+```
+DELETE from people
+WHERE name = 'David MacMurray' OR name = 'Conor Wilson';
+```
