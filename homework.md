@@ -51,19 +51,21 @@ WHERE name = 'David MacMurray';
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 
 ```
-
+DELETE from movies
+WHERE title = 'Batman Begins';
 ```
 
 6.  Create a new entry in the 'people' table with the name of one of the instructors.
 
 ```
-
+INSERT INTO people (name) VALUES ('Keith Douglas');
 ```
 
 7.  Antonio Horta Osario has decided to hijack our movie evening! Remove him from the table of people.
 
 ```
-
+DELETE from people
+WHERE name = 'Antonio Horta Osario';
 ```
 
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'! Create a new entry in the 'movies' table to reflect this.
