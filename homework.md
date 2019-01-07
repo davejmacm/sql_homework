@@ -42,11 +42,42 @@ SET name = 'Stephen Raferty' WHERE name = 'Steven Raferty';
 ```
 
 4.  Return ONLY your name from the 'people' table.
+
+```
+SELECT name from people
+WHERE name = 'David MacMurray';
+```
+
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+
+```
+
+```
+
 6.  Create a new entry in the 'people' table with the name of one of the instructors.
+
+```
+
+```
+
 7.  Antonio Horta Osario has decided to hijack our movie evening! Remove him from the table of people.
+
+```
+
+```
+
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'! Create a new entry in the 'movies' table to reflect this.
+
+```
+
+```
+
 9.  The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
+
+```
+
+```
+
 
 ## Extension
 
